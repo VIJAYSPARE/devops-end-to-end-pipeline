@@ -16,7 +16,7 @@ def test_home(client):
     response = client.get('/')
     assert response.status_code == 200
  future_branch
-    expected_text = quote('Hello_world this is my first cicd pipeline123')
+    expected_text = quote('Hello_world this is my first cicd pipeline')
 
     
  master
